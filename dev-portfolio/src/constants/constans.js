@@ -1,25 +1,35 @@
 const projects = [
   {
-    title: 'World Cup Bet',
+    description:
+      'As a freelance web developer, I successfully undertook a project to rebuild an inactive website for a small-scale enterprise.',
+    id: 0,
+    image: '/images/krvga.png',
+    source: '',
+    tags: ['React', 'Psql', 'Node.js', 'Affordability'],
+    title: 'KRVGA',
+    visit: 'https://krvga.com',
+  },
+  {
     description:
       'A responsive website to bet with friends over the results of every match of the soccer 2022 World Cup.',
+    id: 1,
     image: '/images/worldCup.png',
-    tags: ['React', 'Firebase'],
     source: 'https://github.com/banchito/world_cup',
-    id: 0,
+    tags: ['React', 'Firebase'],
+    title: 'World Cup Bet',
     visit: 'https://world-cup-alpha.vercel.app/',
   },
   {
-    title: 'Esteban Portfolio Website',
     description:
       'A responsive website integrating visual and React.js component testing estrategies.',
+    id: 2,
     image: '/images/portfolio.png',
-    tags: ['NextJS', 'Node', 'Cypress', 'Happo.io'],
     source: 'https://github.com/banchito/Portfolio',
-    id: 1,
+    tags: ['NextJS', 'Node.js', 'Cypress', 'Happo.io'],
+    title: 'Esteban Portfolio Website',
     visit: '',
   },
-]
+];
 
 const TimeLineData = [
   {
@@ -43,9 +53,9 @@ const socialUrls = {
 };
 
 const accomplishments = [
-  { title: '3 Foreign Languages', text: ' English, French & Spanish' },
-  { title: '1 BA Degree', text: ' Law - Colombia ' },
-  { title: '1 AS Degree', text: 'Computer Information Systems' },
+  {title: '3 Foreign Languages', text: ' English, French & Spanish'},
+  {title: '1 BA Degree', text: ' Law - Colombia '},
+  {title: '1 AS Degree', text: 'Computer Information Systems'},
 ];
 
-module.exports = { socialUrls, TimeLineData, projects, accomplishments };
+module.exports = {socialUrls, TimeLineData, projects, accomplishments};
